@@ -44,12 +44,12 @@ fun CardItem(
         modifier = Modifier
             .size(width = 160.dp, height = 168.dp)
             .clip(RoundedCornerShape(MaterialTheme.radius.radius16))
+            .clickable { onClick }
             .background(MaterialTheme.color.cardColor)
             .padding(
                 horizontal = MaterialTheme.dimens.dimens8,
                 vertical = MaterialTheme.dimens.dimens8
             )
-            .clickable { onClick }
     ) {
         Image(
             modifier = Modifier
@@ -76,7 +76,7 @@ fun CardItem(
             )
             Spacer(modifier = Modifier.width(48.dp))
             ChipItem(text = plantType,
-                modifier = Modifier.padding(start = 16.dp),
+                modifier = Modifier,
                 onClickChip = {})
         }
     }
