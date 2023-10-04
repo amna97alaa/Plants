@@ -75,18 +75,9 @@ fun CardItem(
                 color = MaterialTheme.color.textPrimary60
             )
             Spacer(modifier = Modifier.width(48.dp))
-            Text(
-                modifier = Modifier
-                    .wrapContentSize()
-                    .clip(RoundedCornerShape(MaterialTheme.radius.radius8))
-                    .background(MaterialTheme.color.chipColor)
-                    .padding(vertical = 4.dp, horizontal = 8.dp),
-                text = plantType,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.color.textPrimary60,
-                textAlign = TextAlign.Center,
-                maxLines = 1
-            )
+            ChipItem(text = plantType,
+                modifier = Modifier.padding(start = 16.dp),
+                onClickChip = {})
         }
     }
 }

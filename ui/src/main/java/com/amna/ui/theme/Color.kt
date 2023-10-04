@@ -6,6 +6,7 @@ val Background = Color(0xFFFAFAFA)
 val Primary = Color(0xFF86B272)
 val ChipColor = Color(0x80A9C89B)
 val CardColor = Color(0xFFFFFFFF)
+val BoxColor = Color(0x80A9C89B)
 
 
 val TextPrimary87 = Color(0xDE121212)

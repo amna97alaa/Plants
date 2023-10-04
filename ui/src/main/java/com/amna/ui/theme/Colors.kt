@@ -11,6 +11,7 @@ data class Colors(
     val primary: Color = Primary,
     val chipColor: Color = ChipColor,
     val cardColor: Color = CardColor,
+    val boxColor: Color = BoxColor,
     val textPrimary87: Color = TextPrimary87,
     val textPrimary60: Color = TextPrimary60,
     val textPrimary37: Color = TextPrimary37,
