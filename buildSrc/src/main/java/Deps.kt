@@ -45,7 +45,6 @@ object Deps {
     private val googleServiceAuthVersion = "20.6.0"
     private val pagingCommonVersion = "3.2.0"
     private val cloudyVersion = "0.1.2"
-    private val glassy = "0.0.4"
     private val exoPlayerVersion = "1.1.1"
     private val youtubePlayerVersion = "12.1.0"
     private val ratingbarVersion = "1.3.4"
